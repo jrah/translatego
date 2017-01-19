@@ -15,8 +15,13 @@ gulp.task('serve', ['sass'], function() {
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
-    return gulp.src("src/scss/*.scss")
-        .pipe(sass())
+     gulp.src("src/scss/*.scss")
+         .pipe(sass({
+           includePaths: [
+             './bower_components/mathsass/dist/',
+             './bower_components/madsauce/'
+         ]
+       }))
         .pipe(gulp.dest("css"))
         .pipe(browserSync.stream());
 });
