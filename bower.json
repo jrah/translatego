@@ -1,0 +1,22 @@
+{
+  "name": "diversitea",
+  "homepage": "https://github.com/jrah/diversitea",
+  "authors": [
+    "jrah <jjames.home@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "madsauce": "https://github.com/jrah/madsauce.git#master",
+    "mathsass": "^0.9.5"
+  }
+}
