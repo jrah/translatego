@@ -16,7 +16,7 @@
     "tests"
   ],
   "devDependencies": {
-    "madsauce": "https://github.com/jrah/madsauce.git#master",
-    "mathsass": "^0.9.5"
+    "mathsass": "^0.9.5",
+    "madsauce": "jrah/madsauce"
   }
 }
