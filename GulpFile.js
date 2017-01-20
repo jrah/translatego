@@ -9,7 +9,7 @@ gulp.task('serve', ['sass'], function() {
         server: "./"
     });
 
-    gulp.watch("src/scss/*.scss", ['sass']);
+    gulp.watch("src/**/*.scss", ['sass']);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
 
@@ -19,7 +19,9 @@ gulp.task('sass', function() {
          .pipe(sass({
            includePaths: [
              './bower_components/mathsass/dist/',
-             './bower_components/madsauce/'
+             './bower_components/madsauce/',
+             './bower_components/madsauce/madsauce-css'
+
          ]
        }))
         .pipe(gulp.dest("css"))
