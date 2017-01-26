@@ -1,3 +1,10 @@
+// project var
+
+$primary: #84bd00;
+
 // @import "madsauce";
 @import "madsauce-css";
+// modules
+@import "modules/index";
+// partials
 @import "partial/index";

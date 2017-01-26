@@ -1,3 +1,12 @@
 .intro {
+  min-height: 4rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include flexbox;
+  @include justify-content(center);
+  @include align-items(center);
 
+  @include mq($md-screen) {
+    min-height: 14em;
+  }
 }

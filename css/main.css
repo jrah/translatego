@@ -199,13 +199,13 @@ figcaption {
   font-size: 0.875rem; }
 
 a {
-  color: #036fdc;
+  color: #527600;
   text-decoration: none;
   border-bottom: 1px solid #e8e8e8; }
   a:visited {
-    color: #024e9a; }
+    color: #243300; }
   a:hover {
-    border-bottom-color: #ffc759; }
+    border-bottom-color: #84bd00; }
   a:focus {
     outline: thin dotted; }
 
@@ -235,7 +235,7 @@ code {
 pre {
   padding: 0.5rem 0.75rem;
   overflow-x: scroll;
-  border-left: 6px solid #85c1fd;
+  border-left: 6px solid #baff1a;
   word-wrap: normal; }
   pre > code {
     border: 0;
@@ -1057,95 +1057,151 @@ pre {
   color: rgba(33, 33, 33, 0.9); }
 
 .c-primary {
-  color: #0374e6; }
+  color: #598000; }
 
-.bg-black-0 {
+.c-alert {
+  color: #d14445; }
+
+.bg-tint-0 {
   background-color: transparent;
   background-color: transparent; }
 
-.bg-black-10 {
+.bg-tint-1 {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.1); }
 
-.bg-black-20 {
+.bg-tint-2 {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.2); }
 
-.bg-black-30 {
+.bg-tint-3 {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.3); }
 
-.bg-black-40 {
+.bg-tint-4 {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.4); }
 
-.bg-black-50, .tint-static, .tint-dynamic {
+.bg-tint-5, .tint-static, .tint-dynamic {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.5); }
 
-.bg-black-60 {
+.bg-tint-6 {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.6); }
 
-.bg-black-70 {
+.bg-tint-7 {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.7); }
 
-.bg-black-80, .tint-dynamic:hover {
+.bg-tint-8, .tint-dynamic:hover {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.8); }
 
-.bg-black-90 {
+.bg-tint-9 {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.9); }
 
-.bg-black-100 {
+.bg-black {
   background-color: #000000;
   background-color: black; }
 
-.bg-white-0 {
-  background-color: transparent;
-  background-color: rgba(255, 255, 255, 0); }
-
-.bg-white-10 {
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.1); }
-
-.bg-white-20 {
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.2); }
-
-.bg-white-30 {
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.3); }
-
-.bg-white-40 {
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.4); }
-
-.bg-white-50 {
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.5); }
-
-.bg-white-60 {
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.6); }
-
-.bg-white-70 {
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.7); }
-
-.bg-white-80 {
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.8); }
-
-.bg-white-90 {
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.9); }
-
-.bg-white-100 {
+.bg-white {
   background-color: #ffffff;
   background-color: white; }
+
+.bg-grey {
+  background-color: #8c8c8c;
+  background-color: #8c8c8c; }
+
+.bg-blue {
+  background-color: #84bd00;
+  background-color: #84bd00; }
+
+.bg-blue-brand {
+  background-color: #598000;
+  background-color: #598000; }
+
+.bg-red {
+  background-color: #d14445;
+  background-color: #d14445; }
+
+.bg-orange {
+  background-color: #ffc759;
+  background-color: #ffc759; }
+
+.bg-yellow {
+  background-color: #fcdc5d;
+  background-color: #fcdc5d; }
+
+.bg-green {
+  background-color: #00a878;
+  background-color: #00a878; }
+
+.bg-grey-1 {
+  background-color: #f7f7f7;
+  background-color: rgba(247, 247, 247, 0.9); }
+
+.bg-grey-2 {
+  background-color: #e8e8e8;
+  background-color: rgba(232, 232, 232, 0.9); }
+
+.bg-grey-3 {
+  background-color: #bababa;
+  background-color: rgba(186, 186, 186, 0.9); }
+
+.bg-grey-4 {
+  background-color: #8c8c8c;
+  background-color: rgba(140, 140, 140, 0.9); }
+
+.bg-grey-5 {
+  background-color: #5e5e5e;
+  background-color: rgba(94, 94, 94, 0.9); }
+
+.bg-grey-6 {
+  background-color: #303030;
+  background-color: rgba(48, 48, 48, 0.9); }
+
+.bg-grey-7 {
+  background-color: #212121;
+  background-color: rgba(33, 33, 33, 0.9); }
+
+.bg-blue-1 {
+  background-color: #daff85;
+  background-color: rgba(218, 255, 133, 0.9); }
+
+.bg-blue-2 {
+  background-color: #c8ff48;
+  background-color: rgba(200, 255, 72, 0.9); }
+
+.bg-blue-3 {
+  background-color: #baff1a;
+  background-color: rgba(186, 255, 26, 0.9); }
+
+.bg-blue-4 {
+  background-color: #a4eb00;
+  background-color: rgba(164, 235, 0, 0.9); }
+
+.bg-blue-5 {
+  background-color: #84bd00;
+  background-color: rgba(132, 189, 0, 0.9); }
+
+.bg-blue-6 {
+  background-color: #648f00;
+  background-color: rgba(100, 143, 0, 0.9); }
+
+.bg-blue-7 {
+  background-color: #243300;
+  background-color: rgba(36, 51, 0, 0.9); }
+
+.shadow-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); }
+
+.shadow-2 {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15); }
+
+.shadow-3 {
+  box-shadow: inset 4px 0 0 #84bd00; }
 
 .tint-static {
   width: 100%; }
@@ -1254,3 +1310,68 @@ pre {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0; }
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 0;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  border-radius: 4px;
+  user-select: none;
+  transition: 0.1s border ease-in-out, 0.1s background ease-in-out, 0.1s color ease-in-out; }
+  .btn--primary {
+    background-color: #84bd00;
+    color: #ffffff; }
+    .btn--primary:hover {
+      background-color: #96d700; }
+
+input[type='search'], input[type='text'], input[type='number'], input[type='password'], textarea, input[type='email'] {
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  color: #5e5e5e;
+  padding: 0.5rem 1rem;
+  vertical-align: top; }
+
+.intro {
+  min-height: 4rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+  @media screen and (min-width: 48em) {
+    .intro {
+      min-height: 14em; } }
+
+.splash {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 12rem;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 48em) {
+    .splash {
+      background-position: center;
+      min-height: 24rem; } }
+
+.footer-nav li {
+  display: inline-block; }
