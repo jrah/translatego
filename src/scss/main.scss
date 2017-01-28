@@ -2,9 +2,11 @@
 
 $primary: #84bd00;
 
-// @import "madsauce";
-@import "madsauce-css";
+@import "madsauce";
+// @import "madsauce-css";
 // modules
 @import "modules/index";
 // partials
 @import "partial/index";
+
+@import "index";
