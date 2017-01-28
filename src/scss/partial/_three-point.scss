@@ -1,15 +1,13 @@
 .three-point {
-  // background-color: adjust-hue($primary, -10deg);
 
   &--list {
-    // @include justify-content(center);
     @include flexbox;
-    // @include flex-flow(wrap);
-    // @include flex-flow(row);
-    // @include align-content(center);
-    // li {
-    //   text-align: center;
-    // }
+    @include flex-direction(column);
+
+    @include mq($md-screen) {
+      @include flex-direction(row);
+
+    }
   }
 
 }
