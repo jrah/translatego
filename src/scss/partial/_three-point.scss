@@ -1,15 +1,19 @@
 .three-point {
-  background-color: desaturate($primary, 90%);
 
+  .wave {
+    width:100vw;
+  }
   &--list {
-    // @include justify-content(center);
     @include flexbox;
-    // @include flex-flow(wrap);
-    // @include flex-flow(row);
-    // @include align-content(center);
-    // li {
-    //   text-align: center;
-    // }
+    @include flex-direction(column);
+    li {
+      z-index: 1;
+    }
+
+    @include mq($md-screen) {
+      @include flex-direction(row);
+
+    }
   }
 
 }
