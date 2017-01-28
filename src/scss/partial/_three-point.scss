@@ -1,5 +1,5 @@
 .three-point {
-  background-color: desaturate($primary, 90%);
+  // background-color: adjust-hue($primary, -10deg);
 
   &--list {
     // @include justify-content(center);
