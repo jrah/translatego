@@ -1,0 +1,15 @@
+.three-point {
+  background-color: desaturate($primary, 90%);
+
+  &--list {
+    // @include justify-content(center);
+    @include flexbox;
+    // @include flex-flow(wrap);
+    // @include flex-flow(row);
+    // @include align-content(center);
+    // li {
+    //   text-align: center;
+    // }
+  }
+
+}
