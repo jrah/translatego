@@ -20,7 +20,8 @@ gulp.task('sass', function() {
            includePaths: [
              './bower_components/mathsass/dist/',
              './bower_components/madsauce/',
-             './bower_components/madsauce/madsauce-css'
+             './bower_components/madsauce/madsauce-css',
+             './bower_components/madsauce/css/'
 
          ]
        }))
