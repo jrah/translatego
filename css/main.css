@@ -12,10 +12,10 @@
   user-select: none;
   transition: 0.1s border ease-in-out, 0.1s background ease-in-out, 0.1s color ease-in-out; }
   .btn--primary {
-    background-color: #84bd00;
+    background-color: #0a5981;
     color: #ffffff; }
     .btn--primary:hover {
-      background-color: #96d700; }
+      background-color: #0c6999; }
 
 input[type='search'], input[type='text'], input[type='number'], input[type='password'], textarea, input[type='email'] {
   outline: 0;
@@ -90,7 +90,7 @@ input[type='search'], input[type='text'], input[type='number'], input[type='pass
       flex-direction: row; } }
 
 .subscribe {
-  background-color: #84bd00; }
+  background-color: #0a5981; }
 
 
 .hidden,
@@ -179,11 +179,11 @@ input[type="url"] {
 
 html, button, input, select, textarea,
 .grid [class*="unit"] {
-  font-family: "aleo", -apple-system, BlinkMacSystemFont, system, serif; }
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, system, serif; }
 
 body {
   margin: 0;
-  font-family: "aleo", -apple-system, BlinkMacSystemFont, system, serif;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, system, serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.500;
@@ -293,11 +293,11 @@ figcaption {
   font-size: 0.875rem; }
 
 a {
-  color: #527600;
+  color: #052b3f;
   text-decoration: none;
   border-bottom: 1px solid #e8e8e8; }
   a:visited {
-    color: #243300; }
+    color: #000101; }
   a:hover {
     border-bottom-color: #ffc759; }
   a:focus {
@@ -329,7 +329,7 @@ code {
 pre {
   padding: 0.5rem 0.75rem;
   overflow-x: scroll;
-  border-left: 6px solid #baff1a;
+  border-left: 6px solid #1194d6;
   word-wrap: normal; }
   pre > code {
     border: 0;
@@ -1151,7 +1151,7 @@ pre {
   color: rgba(33, 33, 33, 0.9); }
 
 .c-primary {
-  color: #598000; }
+  color: #063248; }
 
 .c-alert {
   color: #d14445; }
@@ -1209,12 +1209,12 @@ pre {
   background-color: #8c8c8c; }
 
 .bg-blue {
-  background-color: #84bd00;
-  background-color: #84bd00; }
+  background-color: #0a5981;
+  background-color: #0a5981; }
 
 .bg-blue-brand {
-  background-color: #598000;
-  background-color: #598000; }
+  background-color: #063248;
+  background-color: #063248; }
 
 .bg-red {
   background-color: #d14445;
@@ -1261,32 +1261,32 @@ pre {
   background-color: rgba(33, 33, 33, 0.9); }
 
 .bg-blue-1 {
-  background-color: #daff85;
-  background-color: rgba(218, 255, 133, 0.9); }
+  background-color: #5fc1f3;
+  background-color: rgba(95, 193, 243, 0.9); }
 
 .bg-blue-2 {
-  background-color: #c8ff48;
-  background-color: rgba(200, 255, 72, 0.9); }
+  background-color: #26abee;
+  background-color: rgba(38, 171, 238, 0.9); }
 
 .bg-blue-3 {
-  background-color: #baff1a;
-  background-color: rgba(186, 255, 26, 0.9); }
+  background-color: #1194d6;
+  background-color: rgba(17, 148, 214, 0.9); }
 
 .bg-blue-4 {
-  background-color: #a4eb00;
-  background-color: rgba(164, 235, 0, 0.9); }
+  background-color: #0d76ac;
+  background-color: rgba(13, 118, 172, 0.9); }
 
 .bg-blue-5 {
-  background-color: #84bd00;
-  background-color: rgba(132, 189, 0, 0.9); }
+  background-color: #0a5981;
+  background-color: rgba(10, 89, 129, 0.9); }
 
 .bg-blue-6 {
-  background-color: #648f00;
-  background-color: rgba(100, 143, 0, 0.9); }
+  background-color: #073c56;
+  background-color: rgba(7, 60, 86, 0.9); }
 
 .bg-blue-7 {
-  background-color: #243300;
-  background-color: rgba(36, 51, 0, 0.9); }
+  background-color: #000101;
+  background-color: rgba(0, 1, 1, 0.9); }
 
 .shadow-1 {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); }
@@ -1295,7 +1295,7 @@ pre {
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15); }
 
 .shadow-3 {
-  box-shadow: inset 4px 0 0 #84bd00; }
+  box-shadow: inset 4px 0 0 #0a5981; }
 
 .tint-static {
   width: 100%; }
