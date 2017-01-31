@@ -1,0 +1,54 @@
+// For documentation specific declarations
+
+.doc {
+  &--title {
+    border-bottom: 1px solid $grey-lighter;
+    padding-bottom: .25em;
+  }
+
+  .colour {
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(center);
+    @include mq($md-screen) {
+      @include flex-direction(row);
+    }
+    &-example {
+      padding: 1em;
+      margin: 1em;
+      border-bottom: 2rem solid rgba(0,0,0,.1);
+
+    }
+
+    &--primary {
+      background-color: $primary;
+
+      &:after {
+        content:  "#{$primary}";
+      }
+    }
+
+    &--accent {
+      background-color: $accent;
+
+      &:after {
+        content:  "#{$accent}";
+      }
+    }
+
+    &--text {
+      background-color: $text-color;
+
+      &:after {
+        content:  "#{$text-color}";
+      }
+    }
+    &--background {
+      background-color: $background-color;
+
+      &:after {
+        content:  "#{$background-color}";
+      }
+    }
+  }
+}
