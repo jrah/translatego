@@ -1,0 +1,15 @@
+.fb {
+  @include flexbox;
+}
+
+.fd-c {
+  @include flex-direction(column);
+}
+
+.fd-r {
+  @include flex-direction(row);
+}
+
+.jc-c {
+  @include justify-content(center);
+}
