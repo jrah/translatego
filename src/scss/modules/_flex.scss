@@ -4,12 +4,33 @@
 
 .fd-c {
   @include flex-direction(column);
+  @each $mqs, $size in $mqs {
+    @include mq(#{$size}) {
+      &-#{$mqs} {
+        @include flex-direction(column);
+      }
+    }
+  }
 }
 
 .fd-r {
   @include flex-direction(row);
+  @each $mqs, $size in $mqs {
+    @include mq(#{$size}) {
+      &-#{$mqs} {
+        @include flex-direction(row);
+      }
+    }
+  }
 }
 
 .jc-c {
   @include justify-content(center);
+  @each $mqs, $size in $mqs {
+    @include mq(#{$size}) {
+      &-#{$mqs} {
+        @include justify-content(center);
+      }
+    }
+  }
 }
