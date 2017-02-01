@@ -19,11 +19,13 @@
 
 input[type='search'], input[type='text'], input[type='number'], input[type='password'], textarea, input[type='email'] {
   outline: 0;
-  border: 0;
+  border: 1px solid #bababa;
   border-radius: 4px;
   color: #5e5e5e;
   padding: 0.5rem 1rem;
   vertical-align: top; }
+  input[type='search']:focus, input[type='text']:focus, input[type='number']:focus, input[type='password']:focus, textarea:focus, input[type='email']:focus {
+    border-color: #0a5981; }
 
 .fb {
   display: -webkit-box;
