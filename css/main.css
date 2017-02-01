@@ -25,6 +25,128 @@ input[type='search'], input[type='text'], input[type='number'], input[type='pass
   padding: 0.5rem 1rem;
   vertical-align: top; }
 
+.fb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.fd-c {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  @media screen and (min-width: 35.5em) {
+    .fd-c-sm {
+      -webkit-box-direction: normal;
+      -webkit-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+  @media screen and (min-width: 48em) {
+    .fd-c-md {
+      -webkit-box-direction: normal;
+      -webkit-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+  @media screen and (min-width: 64em) {
+    .fd-c-lg {
+      -webkit-box-direction: normal;
+      -webkit-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+  @media screen and (min-width: 80em) {
+    .fd-c-xl {
+      -webkit-box-direction: normal;
+      -webkit-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+
+.fd-r {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  @media screen and (min-width: 35.5em) {
+    .fd-r-sm {
+      -webkit-box-direction: normal;
+      -webkit-box-orient: horizontal;
+      -webkit-flex-direction: row;
+      -moz-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+  @media screen and (min-width: 48em) {
+    .fd-r-md {
+      -webkit-box-direction: normal;
+      -webkit-box-orient: horizontal;
+      -webkit-flex-direction: row;
+      -moz-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+  @media screen and (min-width: 64em) {
+    .fd-r-lg {
+      -webkit-box-direction: normal;
+      -webkit-box-orient: horizontal;
+      -webkit-flex-direction: row;
+      -moz-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+  @media screen and (min-width: 80em) {
+    .fd-r-xl {
+      -webkit-box-direction: normal;
+      -webkit-box-orient: horizontal;
+      -webkit-flex-direction: row;
+      -moz-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+
+.jc-c {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center; }
+  @media screen and (min-width: 35.5em) {
+    .jc-c-sm {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      justify-content: center; } }
+  @media screen and (min-width: 48em) {
+    .jc-c-md {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      justify-content: center; } }
+  @media screen and (min-width: 64em) {
+    .jc-c-lg {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      justify-content: center; } }
+  @media screen and (min-width: 80em) {
+    .jc-c-xl {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      justify-content: center; } }
+
 .intro {
   min-height: 4rem;
   background-size: cover;
@@ -142,6 +264,12 @@ input[type='search'], input[type='text'], input[type='number'], input[type='pass
     .doc .colour--background:after {
       content: "#ffffff"; }
 
+.sans-serif {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, system, sans-serif; }
+
+.serif {
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, system, serif; }
+
 
 .hidden,
 [hidden] {
@@ -229,11 +357,11 @@ input[type="url"] {
 
 html, button, input, select, textarea,
 .grid [class*="unit"] {
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, system, serif; }
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, system, sans-serif; }
 
 body {
   margin: 0;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, system, serif;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, system, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.500;
