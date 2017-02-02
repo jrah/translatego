@@ -10,7 +10,8 @@
   white-space: nowrap;
   border-radius: 4px;
   user-select: none;
-  transition: 0.1s border ease-in-out, 0.1s background ease-in-out, 0.1s color ease-in-out; }
+  transition: 0.1s border ease-in-out, 0.1s background ease-in-out, 0.1s color ease-in-out;
+  font-size: 100%; }
   .btn--primary {
     background-color: #0a5981;
     color: #ffffff; }
@@ -23,7 +24,8 @@ input[type='search'], input[type='text'], input[type='number'], input[type='pass
   border-radius: 4px;
   color: #5e5e5e;
   padding: 0.5rem 1rem;
-  vertical-align: top; }
+  vertical-align: top;
+  margin: 0; }
   input[type='search']:focus, input[type='text']:focus, input[type='number']:focus, input[type='password']:focus, textarea:focus, input[type='email']:focus {
     border-color: #0a5981; }
 
