@@ -3,14 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <title>TranslateGo - Index</title>
-  <link rel="stylesheet" href="css/main.css">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
   <link href="https://fonts.googleapis.com/css?family=Roboto Slab|Open Sans" rel="stylesheet">
+  <!-- icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
+<header class="pa-3 bg-blue">
+  <div class="grid-container">
+    <div class="logo pa-3 grid-6-12">
+      <a href="#">
+        <img src="images/logo.svg" width="128px" height="128px" alt="logo">
+      </a>
+    </div>
+    <div class="grid-6-12 grid-omega ta-right">
+      <button class="btn btn--primary header--login">Login</button>
+      <button class="btn btn--primary bg-tint-0 c-light header--signup">Sign up</button>
+    </div>
+  </div>
+</header>
+<main class="mockup">
+  <div class="grid-container">
+    <ul class="nolist ta-center">
+      <li class="pa-3 ma-0 grid-3-12">
+        <i class="material-icons fs1 c-primary">language</i>
+        <div class="panel">
+          <h3 class="fs4 ma-0 panel--title">Choose language</h3>
+          <div class="pa-3">
+            <label for="language">Source language</label>
+            <select class="db mb-3" name="language" placeholder="English">
+              <option selected="selected" value="English">English</option>
+              <option selected="selected" value="German">German</option>
+              <option selected="selected" value="Chinese Traditional">Chinese Traditional</option>
+              <option selected="selected" value="Chinese Simplified">Chinese Simplified</option>
+            </select>
+            <label for="language">Target language</label>
+            <select class="db mb-3" name="language" placeholder="English">
+              <option selected="selected" value="English">English</option>
+              <option selected="selected" value="German">German</option>
+              <option selected="selected" value="Chinese Traditional">Chinese Traditional</option>
+              <option selected="selected" value="Chinese Simplified">Chinese Simplified</option>
+            </select>
+          </div>
+        </div>
+      </li>
+      <li class="pa-3">
+        <i class="material-icons fs1 c-primary">person</i>
+        <div class="ma-3 panel">
+          <h3 class="fs4 ma-0 panel--title">Choose industrial expert</h3>
+          <div class="pa-3">
 
+          </div>
+        </div>
+      </li>
+      <li class="pa-3">
+        <i class="material-icons fs1 c-primary">cloud_upload</i>
+        <div class="ma-3 panel">
+          <h3 class="fs4 ma-0 panel--title">Upload file</h3>
+          <div class="pa-3">
+
+          </div>
+        </div>
+      </li>
+      <li class="pa-3">
+        <i class="material-icons fs1 c-primary">done</i>
+        <div class="ma-3 panel">
+          <h3 class="fs4 ma-0 panel--title">Confirm</h3>
+          <div class="pa-3">
+            <button class="btn btn--primary">Translate</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</main>
+<footer>
+
+</footer>
 
 </body>
 </html>
