@@ -1,0 +1,36 @@
+$susy: (
+    columns: 12,
+    container: 1200px,
+    gutters: 1/4,
+    global-box-sizing: border-box,
+    debug: (image: hide)
+);
+
+.grid {
+  // get 1 to susy grid columns via susy object (map)
+  @for $i from 1 through map-get($susy, columns) {
+    &-#{$i}-#{map-get($susy, columns)} {
+      @include span($i of map-get($susy, columns));
+    }
+
+    // use interpolation to produce correct classes
+    &-#{$i}-#{map-get($susy, columns)} {
+      // use interpolation to media queries breakpoints
+      @each $mqs, $size in $mqs {
+        @include mq(#{$size}) {
+          &-#{$mqs} {
+            @include span($i of map-get($susy, columns));
+          }
+        }
+      }
+    }
+  }
+
+  &-container {
+    @include container(95%);
+  }
+
+  &-omega {
+    @include last;
+  }
+}

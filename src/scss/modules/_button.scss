@@ -12,6 +12,7 @@
   user-select: none;
   transition: 0.1s border ease-in-out, 0.1s background ease-in-out, 0.1s color ease-in-out;
   font-size: 100%;
+
   &--primary {
     background-color: $primary;
     color: $white;
