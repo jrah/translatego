@@ -59,7 +59,7 @@ gulp.task('build-css', function() {
       .pipe(autoprefixer())
       .pipe(concat('main.css'))
       .pipe(sourcemaps.write('.'))
-      .pipe(csso({
+      .pipe(cssnano({
          restructure: false,
          sourceMap: true,
          debug: true
