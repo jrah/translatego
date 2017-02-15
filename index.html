@@ -16,7 +16,7 @@
 <body>
 <header class="pa-3 bg-blue">
   <div class="grid-container">
-    <div class="logo pa-3 grid-6-12">
+    <div class="logo pv-3 grid-6-12">
       <a href="#">
         <img src="images/logo.svg" width="128px" height="128px" alt="logo">
       </a>
@@ -28,57 +28,97 @@
   </div>
 </header>
 <main class="mockup">
-  <div class="grid-container">
+  <div class="grid-container pv-3">
     <ul class="nolist ta-center">
-      <li class="pa-3 ma-0 grid-3-12">
-        <i class="material-icons fs1 c-primary">language</i>
-        <div class="panel">
-          <h3 class="fs4 ma-0 panel--title">Choose language</h3>
-          <div class="pa-3">
-            <label for="language">Source language</label>
-            <select class="db mb-3" name="language" placeholder="English">
-              <option selected="selected" value="English">English</option>
-              <option selected="selected" value="German">German</option>
-              <option selected="selected" value="Chinese Traditional">Chinese Traditional</option>
-              <option selected="selected" value="Chinese Simplified">Chinese Simplified</option>
-            </select>
-            <label for="language">Target language</label>
-            <select class="db mb-3" name="language" placeholder="English">
-              <option selected="selected" value="English">English</option>
-              <option selected="selected" value="German">German</option>
-              <option selected="selected" value="Chinese Traditional">Chinese Traditional</option>
-              <option selected="selected" value="Chinese Simplified">Chinese Simplified</option>
-            </select>
+      <div class="grid-4-12-md grid-12-12">
+        <li class="w5">
+          <i class="material-icons fs1 c-primary">language</i>
+          <div class="ma-2 panel">
+            <h3 class="fs6 ma-0 panel--title">Choose language/industry</h3>
+            <div class="pa-3 ta-left">
+              <label for="language">Source language</label>
+              <select class="di mb-3" name="language" placeholder="English">
+                <option selected="selected" value="English">English</option>
+                <option selected="selected" value="German">German</option>
+                <option selected="selected" value="Chinese Traditional">Chinese Traditional</option>
+                <option selected="selected" value="Chinese Simplified">Chinese Simplified</option>
+              </select>
+              <label for="language">Target language</label>
+              <select class="di mb-3" name="language" placeholder="English">
+                <option selected="selected" value="English">English</option>
+                <option selected="selected" value="German">German</option>
+                <option selected="selected" value="Chinese Traditional">Chinese Traditional</option>
+                <option selected="selected" value="Chinese Simplified">Chinese Simplified</option>
+              </select>
           </div>
-        </div>
-      </li>
-      <li class="pa-3">
-        <i class="material-icons fs1 c-primary">person</i>
-        <div class="ma-3 panel">
-          <h3 class="fs4 ma-0 panel--title">Choose industrial expert</h3>
-          <div class="pa-3">
+        </li>
+      </div>
+      <div class="grid-4-12-md grid-12-12">
+        <li class="w5">
+          <i class="material-icons fs1 c-primary">cloud_upload</i>
+          <div class="ma-2 panel">
+            <h3 class="fs6 ma-0 panel--title">Choose expert</h3>
+            <div class="ma-3 ta-left">
+              <div class="panel--expert mv-3">
+                <a href="#" class="b-none dib">
+                  <i class="panel--option material-icons fs4 c-primary va-textbottom">done</i>
+                </a>
+                <h5 class="fs6 dib mh-3 ph-2">Expert #1</h5>
+                <img src="http://placehold.it/64x64" class="img--circle dib" alt="">
+                <span class="fs6 pv-3 db ta-left">ID <span class="panel--data">13424</span></span>
+              </div>
+              <div class="panel--expert mv-3">
+                <a href="#" class="b-none dib">
+                  <i class="panel--option material-icons fs4 c-primary va-textbottom">add_circle</i>
+                </a>
+                <h5 class="fs6 dib mh-3 ph-2">Expert #1</h5>
+                <img src="http://placehold.it/64x64" class="img--circle dib" alt="">
+                <span class="fs6 pv-3 db ta-left">ID <span class="panel--data">13424</span></span>
+              </div>
+              <!-- <h4 class="fs6">Medical</h4> -->
+              <div class="panel--expert mv-3">
+                <a href="#" class="b-none dib">
+                  <i class="panel--option material-icons fs4 c-primary va-textbottom">add_circle</i>
+                </a>
+                <h5 class="fs6 dib mh-3 ph-2">Expert #1</h5>
+                <img src="http://placehold.it/64x64" class="img--circle dib" alt="">
+                <span class="fs6 pv-3 db ta-left">ID <span class="panel--data">13424</span></span>
+              </div>
+              <div class="panel--expert mv-3">
+                <a href="#" class="b-none dib">
+                  <i class="panel--option material-icons fs4 c-primary va-textbottom">add_circle</i>
+                </a>
+                <h5 class="fs6 dib mh-3 ph-2">Expert #1</h5>
+                <img src="http://placehold.it/64x64" class="img--circle dib" alt="">
+                <span class="fs6 pv-3 db ta-left">ID <span class="panel--data">13424</span></span>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="grid-4-12-md grid-12-12 grid-omega">
+        <li class="w5">
+          <i class="material-icons fs1 c-primary">cloud_upload</i>
+          <div class="ma-2 panel">
+            <h3 class="fs6 ma-0 panel--title">Confirm</h3>
+            <div class="pa-3 ta-center">
 
+              <form action="" class="upload">
+                <input type="file">
+                <!-- <input type="submit" class="btn btn--primary" value="Upload"> -->
+                <div class="pv-3">
+                  <span class="fs6 db ta-left"><span class="panel--data">100 </span>USD</span>
+                  <span class="fs6 db ta-left"><span class="panel--data">2 </span>hr</span>
+                </div>
+                <!-- <label for="notes">Notes</label> -->
+                <!-- <textarea name="notes" id="" cols="20" rows="5">
+                </textarea> -->
+              </form>
+                <button class="btn btn--primary">Translate</button>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="pa-3">
-        <i class="material-icons fs1 c-primary">cloud_upload</i>
-        <div class="ma-3 panel">
-          <h3 class="fs4 ma-0 panel--title">Upload file</h3>
-          <div class="pa-3">
-
-          </div>
-        </div>
-      </li>
-      <li class="pa-3">
-        <i class="material-icons fs1 c-primary">done</i>
-        <div class="ma-3 panel">
-          <h3 class="fs4 ma-0 panel--title">Confirm</h3>
-          <div class="pa-3">
-            <button class="btn btn--primary">Translate</button>
-          </div>
-        </div>
-      </li>
+        </li>
+      </div>
     </ul>
   </div>
 </main>
@@ -86,5 +126,6 @@
 
 </footer>
 
+<script src="js/icons.js" charset="utf-8"></script>
 </body>
 </html>
