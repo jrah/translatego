@@ -18,29 +18,36 @@
     .btn--primary:hover {
       background-color: #0c6999; }
 
-input[type='search'], input[type='text'], input[type='number'], input[type='password'], textarea, input[type='email'] {
+input[type="search"], input[type="text"], input[type="number"], input[type="password"], textarea, input[type="email"] {
   outline: 0;
   border: 1px solid #bababa;
   border-radius: 4px;
   color: #5e5e5e;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   vertical-align: top;
-  margin: 0; }
-  input[type='search']:focus, input[type='text']:focus, input[type='number']:focus, input[type='password']:focus, textarea:focus, input[type='email']:focus {
+  margin: .25em 0; }
+  input[type="search"]:focus, input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus, textarea:focus, input[type="email"]:focus {
     border-color: #0a5981; }
 
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
-  text-indent: 0.01px;
+  text-indent: .01px;
   text-overflow: "";
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   border: 1px solid #bababa;
   outline: 0;
   border-radius: 3px;
   box-shadow: 0 1px 3px rgba(140, 140, 140, 0.1);
   font-size: 100%;
+  vertical-align: baseline; }
+
+label {
+  display: block;
+  margin: .25em 0;
+  font-size: 100%;
+  line-height: 1.5;
   vertical-align: baseline; }
 
 .fb {
@@ -170,6 +177,62 @@ select {
   float: left;
   margin-right: 1.69492%; }
 
+.grid-2-12 {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-3-12 {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-4-12 {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-5-12 {
+  width: 40.67797%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-6-12 {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-7-12 {
+  width: 57.62712%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-8-12 {
+  width: 66.10169%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-9-12 {
+  width: 74.57627%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-10-12 {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-11-12 {
+  width: 91.52542%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-12-12 {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0; }
+
 @media screen and (min-width: 35.5em) {
   .grid-1-12-sm {
     width: 6.77966%;
@@ -193,11 +256,6 @@ select {
     width: 6.77966%;
     float: left;
     margin-right: 1.69492%; } }
-
-.grid-2-12 {
-  width: 15.25424%;
-  float: left;
-  margin-right: 1.69492%; }
 
 @media screen and (min-width: 35.5em) {
   .grid-2-12-sm {
@@ -223,11 +281,6 @@ select {
     float: left;
     margin-right: 1.69492%; } }
 
-.grid-3-12 {
-  width: 23.72881%;
-  float: left;
-  margin-right: 1.69492%; }
-
 @media screen and (min-width: 35.5em) {
   .grid-3-12-sm {
     width: 23.72881%;
@@ -251,11 +304,6 @@ select {
     width: 23.72881%;
     float: left;
     margin-right: 1.69492%; } }
-
-.grid-4-12 {
-  width: 32.20339%;
-  float: left;
-  margin-right: 1.69492%; }
 
 @media screen and (min-width: 35.5em) {
   .grid-4-12-sm {
@@ -281,11 +329,6 @@ select {
     float: left;
     margin-right: 1.69492%; } }
 
-.grid-5-12 {
-  width: 40.67797%;
-  float: left;
-  margin-right: 1.69492%; }
-
 @media screen and (min-width: 35.5em) {
   .grid-5-12-sm {
     width: 40.67797%;
@@ -309,11 +352,6 @@ select {
     width: 40.67797%;
     float: left;
     margin-right: 1.69492%; } }
-
-.grid-6-12 {
-  width: 49.15254%;
-  float: left;
-  margin-right: 1.69492%; }
 
 @media screen and (min-width: 35.5em) {
   .grid-6-12-sm {
@@ -339,11 +377,6 @@ select {
     float: left;
     margin-right: 1.69492%; } }
 
-.grid-7-12 {
-  width: 57.62712%;
-  float: left;
-  margin-right: 1.69492%; }
-
 @media screen and (min-width: 35.5em) {
   .grid-7-12-sm {
     width: 57.62712%;
@@ -367,11 +400,6 @@ select {
     width: 57.62712%;
     float: left;
     margin-right: 1.69492%; } }
-
-.grid-8-12 {
-  width: 66.10169%;
-  float: left;
-  margin-right: 1.69492%; }
 
 @media screen and (min-width: 35.5em) {
   .grid-8-12-sm {
@@ -397,11 +425,6 @@ select {
     float: left;
     margin-right: 1.69492%; } }
 
-.grid-9-12 {
-  width: 74.57627%;
-  float: left;
-  margin-right: 1.69492%; }
-
 @media screen and (min-width: 35.5em) {
   .grid-9-12-sm {
     width: 74.57627%;
@@ -425,11 +448,6 @@ select {
     width: 74.57627%;
     float: left;
     margin-right: 1.69492%; } }
-
-.grid-10-12 {
-  width: 83.05085%;
-  float: left;
-  margin-right: 1.69492%; }
 
 @media screen and (min-width: 35.5em) {
   .grid-10-12-sm {
@@ -455,11 +473,6 @@ select {
     float: left;
     margin-right: 1.69492%; } }
 
-.grid-11-12 {
-  width: 91.52542%;
-  float: left;
-  margin-right: 1.69492%; }
-
 @media screen and (min-width: 35.5em) {
   .grid-11-12-sm {
     width: 91.52542%;
@@ -483,12 +496,6 @@ select {
     width: 91.52542%;
     float: left;
     margin-right: 1.69492%; } }
-
-.grid-12-12 {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0; }
 
 @media screen and (min-width: 35.5em) {
   .grid-12-12-sm {
@@ -530,6 +537,9 @@ select {
 .grid-omega {
   float: right;
   margin-right: 0; }
+
+.img--circle {
+  border-radius: 50%; }
 
 .intro {
   min-height: 4rem;
@@ -610,7 +620,13 @@ select {
   .panel--title {
     background-color: #f7f7f7;
     border-bottom: 1px solid #e8e8e8;
-    padding: 0.5em; }
+    padding: .5em; }
+  .panel--data {
+    color: #8c8c8c; }
+  .panel--expert {
+    border-bottom: 1px solid #e8e8e8; }
+    .panel--expert:last-child {
+      border: 0; }
 
 .doc--title {
   border-bottom: 1px solid #e8e8e8;
@@ -1868,6 +1884,9 @@ pre {
 
 .shadow-3 {
   box-shadow: inset 4px 0 0 #0a5981; }
+
+.b-none {
+  border: 0; }
 
 .tint-static {
   width: 100%; }
