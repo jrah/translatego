@@ -1,4 +1,4 @@
-input[type='search'], input[type='text'], input[type='number'], input[type='password'], textarea, input[type='email'] {
+input[type="search"], input[type="text"], input[type="number"], input[type="password"], textarea, input[type="email"] {
 	outline: 0;
 	border: 1px solid $grey-light;
 
@@ -7,18 +7,18 @@ input[type='search'], input[type='text'], input[type='number'], input[type='pass
   }
 	border-radius: 4px;
 	color: $grey-dark;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   vertical-align: top;
-  margin: 0;
+  margin: .25em 0;
 }
 
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
-  text-indent: 0.01px;
+  text-indent: .01px;
   text-overflow: "";
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   border: 1px solid $grey-light;
   outline: 0;
   border-radius: 3px;
