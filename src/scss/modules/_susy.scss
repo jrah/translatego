@@ -7,13 +7,19 @@ $susy: (
 );
 
 .grid {
+  // use interpolation to produce correct classes
+
   // get 1 to susy grid columns via susy object (map)
   @for $i from 1 through map-get($susy, columns) {
-    &-#{$i}-#{map-get($susy, columns)} {
+
+    &-#{$i}-#{map-get($susy, columns)}  {
       @include span($i of map-get($susy, columns));
     }
 
-    // use interpolation to produce correct classes
+  }
+  @for $i from 1 through map-get($susy, columns) {
+
+    // loop through media classes first
     &-#{$i}-#{map-get($susy, columns)} {
       // use interpolation to media queries breakpoints
       @each $mqs, $size in $mqs {
