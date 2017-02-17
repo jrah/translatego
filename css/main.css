@@ -627,8 +627,6 @@ label {
     border-bottom: 1px solid #e8e8e8; }
     .panel--expert:last-child {
       border: 0; }
-  .panel--option {
-    outline: 0; }
 
 .doc--title {
   border-bottom: 1px solid #e8e8e8;
